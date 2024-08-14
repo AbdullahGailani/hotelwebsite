@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Codystar:wght@300;400&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Foldit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 200vh;
+  background-color: #f4f1ed;
+}
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-desc {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  text-align: center;
+  font-size: 42px;
+}
+.hero-desc p {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.hero-desc h1 {
+  margin-bottom: 10px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+.hero {
+  height: 100vh;
+}
+.hotel-main-image {
+  height: 100%;
+  width: 100%;
+  filter: brightness(70%);
+}
+.hero-btn {
+  margin-top: 45px;
+  cursor: pointer;
+  padding: 10px 35px;
+  background-color: #f4f1ed;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+}
+.hero-btn:hover {
+  background-color: #e3e0dd;
+}
+.hero-btn:active {
+  background-color: #cac8c7;
+}
