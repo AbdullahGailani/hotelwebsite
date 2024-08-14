@@ -5,8 +5,11 @@
   padding: 0;
 }
 body {
-  height: 200vh;
   background-color: #f4f1ed;
+}
+.container {
+  width: 80rem;
+  margin: 0 auto;
 }
 .hero {
   position: relative;
@@ -53,4 +56,37 @@ body {
 }
 .hero-btn:active {
   background-color: #cac8c7;
+}
+
+/* welcome Section */
+.welcome-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.welcome-section-desc {
+  color: #623e2a;
+  width: 37rem;
+  margin: 0 auto;
+  font-family: "Playfair Display", sans-serif;
+}
+.welcome-section-desc h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
+  font-weight: 100;
+}
+.welcome-section-desc p {
+  font-size: 18px;
+}
+.welcome-section-img {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+.welcome-section-img img {
+  height: 100%;
+  width: 100%;
 }
