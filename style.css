@@ -148,46 +148,53 @@ body {
   display: flex;
   position: relative;
   align-items: center;
-  margin-bottom: 200px;
-  margin-left: 15%;
+  margin-bottom: 270px;
+  margin-left: 12%;
   height: 100%;
-  width: 100%;
   font-family: "Playfair Display", sans-serif;
   color: #623e2a;
   font-weight: 300;
-  font-size: 60px;
+  font-size: 70px;
 }
 .ayads-section p {
-  display: flex;
-  align-items: center;
   margin-bottom: 200px;
-  margin-left: 15%;
+  margin-left: 12%;
   height: 100%;
-  width: 100%;
   font-family: "Playfair Display", sans-serif;
   font-weight: 300;
   font-size: 20px;
   font-style: normal;
   letter-spacing: 2px;
+  color: #623e2a;
 }
 .ayads-section h2 {
-  display: flex;
-  align-items: center;
-  justify-items: center;
   margin-left: 60%;
-  margin-bottom: 200px;
-  height: 100%;
+  margin-bottom: 200px
   font-family: "Playfair Display", sans-serif;
   font-weight: 300;
   font-size: 20px;
   position: relative;
-  bottom: 285px;
+  bottom: 730px;
   border: 2px solid #623e2a;
+  color: #623e2a;
   justify-content: center;
   border-radius: none;
   text-align: center;
-  margin-right: 100px;
+  margin-right: 250px;
   padding: 10px 10px 15px 10px;
   letter-spacing: 1px;
-  margin-left: 65rem;
+  margin-left: 60rem;
 }
+.ayads-section .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 770px;
+  height: 470px;
+margin-left:50% ;
+position: relative;
+bottom: 770px;
+
+
+}
+
