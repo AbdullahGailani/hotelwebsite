@@ -148,9 +148,9 @@ body {
   display: flex;
   position: relative;
   align-items: center;
-  margin-bottom: 270px;
+  margin-bottom: 16.875rem;
   margin-left: 12%;
-  height: 200px;
+  height: 12.5rem;
   font-family: "Playfair Display", sans-serif;
   color: #623e2a;
   font-weight: 300;
@@ -180,7 +180,7 @@ body {
   justify-content: center;
   border-radius: none;
   text-align: center;
-  margin-right: 250px;
+  margin-right: 15.625rem;
   padding: 10px 10px 15px 10px;
   letter-spacing: 1px;
   margin-left: 70rem;
@@ -203,17 +203,20 @@ bottom: 770px;
 }
 
 .pic1-ayad .logo1-ayad{
-  position: relative;
-  bottom: 476px;
-  height: 850px;
-  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 29.75rem;
+  height: 53.125rem;
+  width: 37.5rem;
   display: flex;
   flex-direction: row;
-  margin-left: 240px;
+  margin-left: 15rem;
 }
 .pic2-ayad .logo2-ayad{
-  width: 1200px;
-  height: 850px;
+  width: 75rem;
+  display: flex;
+  height: 53.125rem;
   margin-left:38.8% ;
   position: relative;
   bottom:87.7rem;
