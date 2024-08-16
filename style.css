@@ -141,117 +141,59 @@ body {
   height: 100%;
   width: 100%;
 }
+/* ayads section */
 .ayads-section {
-  background-color: #efebe5;
-}
-.ayads-section h1 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  margin-bottom: 16.875rem;
-  margin-left: 12%;
-  height: 12.5rem;
-  font-family: "Playfair Display", sans-serif;
-  color: #623e2a;
-  font-weight: 300;
-  font-size: 85px;
-}
-.ayads-section p {
-  margin-bottom: 200px;
-  margin-left: 12%;
-  height: 100%;
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  font-style: normal;
-  letter-spacing: 2px;
-  color: #623e2a;
-}
-.ayads-section h2 {
-  margin-left: 60%;
-  margin-bottom: 200px
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  position: relative;
-  bottom: 730px;
-  border: 2px solid #623e2a;
-  color: #623e2a;
-  justify-content: center;
-  border-radius: none;
-  text-align: center;
-  margin-right: 15.625rem;
-  padding: 10px 10px 15px 10px;
-  letter-spacing: 1px;
-  margin-left: 70rem;
-}
-.ayads-section .logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 800px;
-  height: 500px;
-margin-left:50% ;
-position: relative;
-bottom: 770px;
-}
-.container-ayad{
-  background: #efebe5;
-  
- 
+  height: 100vh;
+  margin-top: 100px;
   
 }
-
-.pic1-ayad .logo1-ayad{
+.ayad-section-container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  bottom: 29.75rem;
-  height: 53.125rem;
-  width: 37.5rem;
-  display: flex;
-  flex-direction: row;
-  margin-left: 15rem;
 }
-.pic2-ayad .logo2-ayad{
-  width: 75rem;
+.ayad-desc {
   display: flex;
-  height: 53.125rem;
-  margin-left:38.8% ;
-  position: relative;
-  bottom:87.7rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ayad-desc h1 {
+  font-size: 80px;
+   font-weight: 300;
+  font-family: "Playfair Display", sans-serif;
+  color: #623e2a;
+  margin-left: -100px;
   
 }
-.text1-ayad{
-  display: flex;
-  align-items: center;
-  position: relative;
-  bottom: 450px;
- margin-left: 240px;
- border: 3px solid #623e2a;
- margin-right: 63.2%;
- justify-content: center;
- color: #623e2a;
- font-size: 20px;
- padding: 10px 10px 15px 10px;
-
+.ayad-desc p{
+   font-weight: 300;
+  color: #623e2a;
+  font-size: 20px;
+  letter-spacing: 2px;
+   margin-left: -200px;
+   margin-top: 400px;
+  
 }
-.text2-ayad{
-  display: flex;
-  position: relative;
-  bottom: 86rem;
- margin-left: 38.7%;
- border: 3px solid #623e2a;
- justify-content: center;
- margin-right: 8.6%;
- padding: 20px 20px 25px 20px;
- color: #623e2a;
- font-size: 20px;
- 
- 
 
-
- 
-
-
+.ayad-img img {
+  height: 550px;
+  width: 800px;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
+.logo{
+  margin-left: 20%;
+  
+}
+.ayad-img p {
+  border: 3px solid #623e2a;
+  margin-left: 10%;
+  margin-right: -100px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 10px 15px 10px;
+  font-size: 20px;
+   font-weight: 300;
+  color: #623e2a;
+  width: 100%;
+}
+
