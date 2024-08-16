@@ -174,46 +174,136 @@ body {
   display: flex;
   position: relative;
   align-items: center;
+<<<<<<< HEAD
   margin-bottom: 200px;
   margin-left: 15%;
   height: 100%;
   width: 500px;
+=======
+  margin-bottom: 270px;
+  margin-left: 12%;
+  height: 200px;
+>>>>>>> 6151bd60da867222ecf45c2ad16ad15b995e9813
   font-family: "Playfair Display", sans-serif;
   color: #623e2a;
   font-weight: 300;
-  font-size: 60px;
+  font-size: 85px;
 }
+<<<<<<< HEAD
 .ayad-desc p {
   display: flex;
   align-items: center;
+=======
+.ayads-section p {
+>>>>>>> 6151bd60da867222ecf45c2ad16ad15b995e9813
   margin-bottom: 200px;
-  margin-left: 15%;
+  margin-left: 12%;
   height: 100%;
+<<<<<<< HEAD
   width: 500px;
+=======
+>>>>>>> 6151bd60da867222ecf45c2ad16ad15b995e9813
   font-family: "Playfair Display", sans-serif;
   font-weight: 300;
   font-size: 20px;
   font-style: normal;
   letter-spacing: 2px;
+  color: #623e2a;
 }
+<<<<<<< HEAD
 .ayad-img h2 {
   display: flex;
   align-items: center;
   justify-items: center;
+=======
+.ayads-section h2 {
+>>>>>>> 6151bd60da867222ecf45c2ad16ad15b995e9813
   margin-left: 60%;
-  margin-bottom: 200px;
-  height: 100%;
+  margin-bottom: 200px
   font-family: "Playfair Display", sans-serif;
   font-weight: 300;
   font-size: 20px;
   position: relative;
-  bottom: 285px;
+  bottom: 730px;
   border: 2px solid #623e2a;
+  color: #623e2a;
   justify-content: center;
   border-radius: none;
   text-align: center;
-  margin-right: 100px;
+  margin-right: 250px;
   padding: 10px 10px 15px 10px;
   letter-spacing: 1px;
+<<<<<<< HEAD
   margin-left: 65rem;
 } */
+=======
+  margin-left: 70rem;
+}
+.ayads-section .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 500px;
+margin-left:50% ;
+position: relative;
+bottom: 770px;
+}
+.container-ayad{
+  background: #efebe5;
+  
+ 
+  
+}
+
+.pic1-ayad .logo1-ayad{
+  position: relative;
+  bottom: 476px;
+  height: 850px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 240px;
+}
+.pic2-ayad .logo2-ayad{
+  width: 1200px;
+  height: 850px;
+  margin-left:38.8% ;
+  position: relative;
+  bottom:87.7rem;
+  
+}
+.text1-ayad{
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 450px;
+ margin-left: 240px;
+ border: 3px solid #623e2a;
+ margin-right: 63.2%;
+ justify-content: center;
+ color: #623e2a;
+ font-size: 20px;
+ padding: 10px 10px 15px 10px;
+
+}
+.text2-ayad{
+  display: flex;
+  position: relative;
+  bottom: 86rem;
+ margin-left: 38.7%;
+ border: 3px solid #623e2a;
+ justify-content: center;
+ margin-right: 8.6%;
+ padding: 20px 20px 25px 20px;
+ color: #623e2a;
+ font-size: 20px;
+ 
+ 
+
+
+ 
+
+
+}
+>>>>>>> 6151bd60da867222ecf45c2ad16ad15b995e9813
