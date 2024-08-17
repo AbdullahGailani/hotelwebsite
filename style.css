@@ -144,12 +144,12 @@ body {
 /* ayads section */
 .ayads-section {
   height: 100vh;
-  margin-top: 100px;
-  
+  margin-top: 87px;
 }
 .ayad-section-container {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
 }
 .ayad-desc {
   display: flex;
@@ -157,43 +157,76 @@ body {
   justify-content: space-between;
 }
 .ayad-desc h1 {
-  font-size: 80px;
-   font-weight: 300;
+  font-size: 60px;
+  font-weight: 300;
   font-family: "Playfair Display", sans-serif;
   color: #623e2a;
-  margin-left: -100px;
-  
+  margin-left: 60px;
 }
-.ayad-desc p{
-   font-weight: 300;
+.ayad-desc p {
+  font-weight: 300;
   color: #623e2a;
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: 2px;
-   margin-left: -200px;
-   margin-top: 400px;
-  
+  margin-left: 60px;
+  margin-top: 320px;
 }
 
 .ayad-img img {
-  height: 550px;
-  width: 800px;
+  height: 400px;
+  width: 650px;
   margin-bottom: 40px;
   margin-top: 30px;
 }
-.logo{
-  margin-left: 20%;
-  
+.logo {
+  margin-right: 60px;
 }
 .ayad-img p {
-  border: 3px solid #623e2a;
-  margin-left: 10%;
-  margin-right: -100px;
+  border: 2px solid #623e2a;
+  margin-right: 60px;
   display: flex;
   justify-content: center;
-  padding: 15px 10px 15px 10px;
-  font-size: 20px;
-   font-weight: 300;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 300;
   color: #623e2a;
-  width: 100%;
 }
-
+.ayad2-container {
+  height: 100vh;
+}
+.ayad2-desc {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  gap: 30px;
+}
+.logo1-a {
+  width: 400px;
+  height: 500px;
+  margin-left: 40px;
+}
+.logo2-a {
+  width: 830px;
+  height: 500px;
+  margin-right: 80px;
+}
+.text1-a p {
+  margin-left: 40px;
+  border: 2px solid #623e2a;
+  font-size: 13px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  margin-top: 20px;
+}
+.text2-a p {
+  margin-top: 20px;
+  border: 2px solid #623e2a;
+  font-size: 13px;
+  padding: 17px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  margin-right: 80px;
+}
