@@ -233,7 +233,6 @@ body {
 .ayad-3desc {
   height: 100vh;
   background: #efebe5;
- 
 }
 .ayad-3desc h2 {
   display: flex;
@@ -329,70 +328,113 @@ body {
   padding-bottom: 57px;
   margin-right: 80px;
 }
-.awayl-desc{
+.awayl-desc {
   height: 100vh;
   background-image: url(.//Images/photo_2024-08-18_16-13-04.jpg);
   background-position: center;
   background-size: cover;
   filter: brightness(80%);
   color: #fff;
-    font-family: "Playfair Display", sans-serif;
-    
+  font-family: "Playfair Display", sans-serif;
 }
-.awayl-desc h1{
+.awayl-desc h1 {
   display: flex;
   justify-content: center;
   font-size: 60px;
-  margin-top:20px 
+  margin-top: 20px;
 }
-.space h1{
-position: relative;
-top: 100px;
+.space h1 {
+  position: relative;
+  top: 100px;
 }
-.awayl-container{
+.awayl-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.pro1 p{
+.pro1 p {
   margin-top: 320px;
   font-size: 17px;
   margin-left: 40px;
 }
-.pro2 p{
+.pro2 p {
   margin-top: 320px;
-   font-size: 17px;
+  font-size: 17px;
   margin-left: 40px;
 }
-.pro3 p{
+.pro3 p {
   margin-top: 320px;
-   font-size: 17px;
+  font-size: 17px;
   margin-left: 40px;
 }
-.pro1 h3{
+.pro1 h3 {
   margin-top: 50px;
   margin-left: 40px;
 }
-.pro2 h3{
+.pro2 h3 {
   margin-top: 50px;
   margin-left: 40px;
 }
-.pro3 h3{
+.pro3 h3 {
   margin-top: 50px;
   margin-left: 40px;
 }
-.pro1 h2{
-margin-left: 40px;
-position: relative;
-top: 52px;
+.pro1 h2 {
+  margin-left: 40px;
+  position: relative;
+  top: 52px;
 }
-.pro2 h2{
-margin-left: 40px;
-position: relative;
-top: 52px;
+.pro2 h2 {
+  margin-left: 40px;
+  position: relative;
+  top: 52px;
 }
-.pro3 h2{
-margin-left: 40px;
-position: relative;
-top: 52px;
+.pro3 h2 {
+  margin-left: 40px;
+  position: relative;
+  top: 52px;
+}
+.kota-desc {
+  height: auto;
+  background-color: #623e2a;
+  color: #fff;
+}
+.kota-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+.kota-desc h3 {
+  font-size: 40px;
+  font-family: "Playfair Display", sans-serif;
+  margin-left: 40px;
+  position: relative;
+  top: 60px;
+}
+.div1 p {
+  margin-left: 40px;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 25px;
+}
+.div1 h1 {
+  font-size: 20px;
+  font-family: "Playfair Display", sans-serif;
+  margin-bottom: 30px;
+}
+.mawqih {
+  width: 20px;
+  height: 20px;
+}
+.mobyl {
+  width: 20px;
+  height: 20px;
+}
+.nama {
+  width: 20px;
+  height: 20px;
+}
+.div2 h1 {
+  font-size: 20px;
 }
