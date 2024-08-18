@@ -231,8 +231,9 @@ body {
   margin-right: 80px;
 }
 .ayad-3desc {
-  height: 200vh;
+  height: 100vh;
   background: #efebe5;
+ 
 }
 .ayad-3desc h2 {
   display: flex;
@@ -327,4 +328,71 @@ body {
   border: 1px solid #623e2a;
   padding-bottom: 57px;
   margin-right: 80px;
+}
+.awayl-desc{
+  height: 100vh;
+  background-image: url(.//Images/photo_2024-08-18_16-13-04.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(80%);
+  color: #fff;
+    font-family: "Playfair Display", sans-serif;
+    
+}
+.awayl-desc h1{
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  margin-top:20px 
+}
+.space h1{
+position: relative;
+top: 100px;
+}
+.awayl-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pro1 p{
+  margin-top: 320px;
+  font-size: 17px;
+  margin-left: 40px;
+}
+.pro2 p{
+  margin-top: 320px;
+   font-size: 17px;
+  margin-left: 40px;
+}
+.pro3 p{
+  margin-top: 320px;
+   font-size: 17px;
+  margin-left: 40px;
+}
+.pro1 h3{
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.pro2 h3{
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.pro3 h3{
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.pro1 h2{
+margin-left: 40px;
+position: relative;
+top: 52px;
+}
+.pro2 h2{
+margin-left: 40px;
+position: relative;
+top: 52px;
+}
+.pro3 h2{
+margin-left: 40px;
+position: relative;
+top: 52px;
 }
